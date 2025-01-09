@@ -1,0 +1,41 @@
+main {
+  padding: 30px 15% 10px;
+}
+
+.ingredient-form {
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  input {
+    min-width: 150px;
+    max-width: 400px;
+    flex-grow: 1;
+    padding: 0 15px;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    border: 1px solid #D1D5DB;
+    
+  }
+
+  button {
+    width: 150px;
+    background-color: #141413;
+    color: #ebebeb;
+    font-family: Inter, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+
+  button::before {
+    content: '+';
+    margin-right: 5px;
+  }
+}
+
+
+
